@@ -37,12 +37,14 @@ const List = () => {
   ];
 
   return (
-      <div className="list">
-        <h2>People</h2>
+    <div className="container">
+      <h2>People</h2>
+      <div className="container__list">
         {candidateNames.map((canidate) => {
           return <Card canidate={canidate} key={canidate} />;
         })}
       </div>
+    </div>
   );
 };
 
