@@ -1,8 +1,11 @@
 import React from 'react'
+import "./styles/style.css"
 
 const Navbar = () => {
   return (
-    <div>🇺🇸</div>
+    <div className='navbar'>
+      <img src="src/assets/image.png" alt="" />
+      </div>
   )
 }
 

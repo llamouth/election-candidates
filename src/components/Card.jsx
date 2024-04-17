@@ -1,9 +1,12 @@
 import React from 'react'
+import "./styles/style.css"
 
-const Card = ({candidate}) => {
+const Card = ({canidate}) => {
+  
   return (
-    <div>
-      <img src="../assets/person.jpg" alt="" />
+    <div className='card'>
+      <img src="src/assets/person.jpg" alt="" />
+      <p>{canidate}</p>
     </div>
   )
 }
